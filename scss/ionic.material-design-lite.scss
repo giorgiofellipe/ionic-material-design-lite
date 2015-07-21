@@ -7,8 +7,10 @@
 @import "variables";
 @import "scaffolding";
 @import "bower_components/ionic/scss/_button.scss";
+@import "bower_components/ionic/scss/_checkbox.scss";
 @import "bower_components/material-design-lite/src/ripple/_ripple.scss";
 @import "bower_components/material-design-lite/src/button/_button.scss";
+@import "bower_components/material-design-lite/src/checkbox/_checkbox.scss";
 @import "bower_components/ionic/scss/_list.scss";
 @import "bower_components/ionic/scss/_items.scss";
 @import "bower_components/material-design-lite/src/card/_card.scss";
@@ -18,6 +20,7 @@
 @import "bower_components/material-design-lite/src/layout/_layout.scss";
 @import "mixin";
 @import "button/button";
+@import "checkbox/checkbox";
 @import "bar/bar";
 @import "list/card";
 @import "list/item";
