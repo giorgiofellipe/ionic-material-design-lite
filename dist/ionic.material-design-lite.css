@@ -1176,9 +1176,9 @@ a.button {
   .mdl-checkbox.is-upgraded, .platform-android .is-upgraded.checkbox, .platform-override .is-upgraded.checkbox {
     padding-left: 24px; }
 
-.mdl-checkbox__input {
+.mdl-checkbox__input, .platform-android .checkbox input[type=checkbox], .platform-override .checkbox input[type=checkbox] {
   line-height: 24px; }
-  .mdl-checkbox.is-upgraded .mdl-checkbox__input, .platform-android .is-upgraded.checkbox .mdl-checkbox__input, .platform-override .is-upgraded.checkbox .mdl-checkbox__input {
+  .mdl-checkbox.is-upgraded .mdl-checkbox__input, .platform-android .is-upgraded.checkbox .mdl-checkbox__input, .platform-override .is-upgraded.checkbox .mdl-checkbox__input, .mdl-checkbox.is-upgraded .platform-android .checkbox input[type=checkbox], .platform-android .checkbox .mdl-checkbox.is-upgraded input[type=checkbox], .platform-android .is-upgraded.checkbox input[type=checkbox], .mdl-checkbox.is-upgraded .platform-override .checkbox input[type=checkbox], .platform-override .checkbox .mdl-checkbox.is-upgraded input[type=checkbox], .platform-override .is-upgraded.checkbox input[type=checkbox] {
     position: absolute;
     width: 0;
     height: 0;
@@ -3995,6 +3995,9 @@ a.item-content {
   .platform-android .tab-item .button, .platform-override .tab-item .button {
     width: 100%;
     height: 100%; }
+
+.platform-android .checkbox, .platform-override .checkbox {
+  max-width: 24px; }
 
 .platform-android .bar, .platform-override .bar {
   height: 56px;

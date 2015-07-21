@@ -1,8 +1,10 @@
 .platform-android, .platform-override {
   .checkbox {
     @extend .mdl-checkbox;
-    input[type=checkbox] {
+    max-width: 24px;
 
+    input[type=checkbox] {
+      @extend .mdl-checkbox__input;
     }
   }
 }
